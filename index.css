@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+}
+
+.container {
+    width: 50%;
+    padding: 40px;
+    height: 100vw;
+
+
+}
+
+.logo-img {
+    width:30%;
+    padding: 20px;
+    box-shadow: 0 2px 2px rgb(208, 208, 208);
+    border-radius: 8px;
+}
+
+.secondSide {
+    background-color: hsl(201,100%,50%);
+    margin: 0;
+}
