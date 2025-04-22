@@ -13,49 +13,73 @@
     </head>
     <body>
         <div class="container">
-            <header>
-                <img src="./image/free-work.png" class="logo-img">
-                <h2>
-                    Je me connecte
-                </h2>
-                <p>
-                    Pas encore membre ? <a href="connect.html">Inscrivez-vous</a>
-                </p>
-            </header>
+            <div class="leftDetail">
+                <header>
+                    <img src="./image/free-work.png" class="logo-img">
+                    <h2>
+                        Je me connecte
+                    </h2>
+                    <p>
+                        Pas encore membre ? <a href="connect.html">Inscrivez-vous</a>
+                    </p>
+                </header>
 
-            <div>
-                <img>
-                <p>Se connecter avec LinkedIn</p>
-            </div>
-            <div>
-                <img>
-                <p>Se connecter avec Google</p>
-            </div>
-            <p>ou</p>
+                <div>
+                    <img>
+                    <p>Se connecter avec LinkedIn</p>
+                </div>
+                <div>
+                    <img>
+                    <p>Se connecter avec Google</p>
+                </div>
+                <p>ou</p>
 
-            <form>
-                <label for email>E-mail</label>
-                <input type="email" aria-label="email" name="email" placeholder="E-mail" required>
-                <label for="Mot de passe">Mot de passe</label>
-                <input type="password" name="Mot de passe" placeholder="Mot de passe" required>
-                <a>Mot de passe oublié?</a>
-                <label for="checkbox">Rester connecté pendant une semaine</label>
-                <input type="checkbox" name="Rester connecté pendant une semaine">
-                <button>Se connecter</button>
-            </form>
+                <form>
+                    <div class="anInput">
+                        <label for email>E-mail</label>
+                        <input 
+                        type="email" 
+                        aria-label="email" 
+                        name="email" 
+                        placeholder="E-mail" 
+                        class="email"
+                        required
+                        >
+                    </div>
+
+                    <div class="anInput">
+                        <label for="Mot de passe">Mot de passe</label>
+                        <input 
+                        type="password" 
+                        name="Mot de passe" 
+                        placeholder="Mot de passe" 
+                        required
+                        >
+                    </div>
+                    
+                    <a>Mot de passe oublié?</a>
+                    <input type="checkbox" name="Rester connecté pendant une semaine">
+                    <label for="checkbox">Rester connecté pendant une semaine</label>
+                    <button>Se connecter</button>
+                </form>
+            </div>
         </div>
         <div class="container secondSide">
-            <h2>Pas encore inscrit ? C'est 100% gratuit</h2>
+            <div class="inscriptionBox">
+                <h2>Pas encore inscrit ?<br><span>C'est 100% gratuit</span></h2>
 
-                ✓ +100 000 Free-Workers actifs
-                ✓ +15 000 offres de mission ou d’emploi IT
-                ✓ +1 000 recruteurs spécialisés dans l’informatique
-                ✓ Choisissez la visibilité de votre profil
-                ✓ Retrouvez la plus grosse communauté d’indépendants
-                ✓ Suivez les dernières actualités tech
-                ✓ +350 deals sur les meilleurs logiciels SaaS, outils et services en ligne de la tech
+                    <p>
+                    ✓ +100 000 Free-Workers actifs <br>
+                    ✓ +15 000 offres de mission ou d’emploi IT<br>
+                    ✓ +1 000 recruteurs spécialisés dans l’informatique<br>
+                    ✓ Choisissez la visibilité de votre profil<br>
+                    ✓ Retrouvez la plus grosse communauté d’indépendants<br>
+                    ✓ Suivez les dernières actualités tech<br>
+                    ✓ +350 deals sur les meilleurs logiciels SaaS, outils et services en ligne de la tech
+                    </p>
 
-            <button>Je m'inscris en 2mn</button>
+                <button>Je m'inscris en 2mn</button>
+            </div>
         </div>
         
         <script src="index.js" async defer></script>
