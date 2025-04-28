@@ -6,16 +6,23 @@ body {
     font-family: "Poppins", sans-serif;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-areas: 
+    "left left left left left left right right right right right right"
+    "left left left left left left right right right right right right"
+    "left left left left left left right right right right right right"
+    "left left left left left left right right right right right right"
+    "left left left left left left right right right right right right"
+    "left left left left left left right right right right right right";
     margin: 0;
     /* width: 100vw; */
-    height: 100vw;
+    /* height: 100vw; */
     
 }
 
 .container {
-    width: 50%;
-    padding: 40px;
-    margin: 0 auto;
+    /* width: 50%; */
+    /* padding: 40px; */
+    /* margin: 0 auto; */
     border: 1px solid blue;
 
 
@@ -23,8 +30,8 @@ body {
 }
 
 .leftDetail {
-    
-    margin: 0 auto;
+    grid-area: left;
+    /* margin: 0 auto; */
 
 }
 
@@ -42,10 +49,11 @@ body {
 
 .inscriptionBox {
     background: white;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 16px ;
-    align-self: center;
-    width: 400px;
+    /* align-self: center; */
+    /* width: 400px; */
+    grid-area: right;
 
 }
 
