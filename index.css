@@ -4,7 +4,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     margin: 0;
     /* width: 100vw; */
     height: 100vw;
