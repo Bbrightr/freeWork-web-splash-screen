@@ -32,6 +32,9 @@ body {
 .leftDetail {
     grid-area: left;
     /* margin: 0 auto; */
+    /* width: 400px; */
+    border: 1px solid blue;
+
 
 }
 
@@ -78,10 +81,6 @@ button {
     font-size: 16px;
 }
 
-.leftDetail {
-    width: 400px;
-    border: 1px solid blue;
-}
 
 form {
     width: 100%;
