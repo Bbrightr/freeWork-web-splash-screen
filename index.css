@@ -3,61 +3,68 @@
 }
 
 body {
+    margin: 0;
     font-family: "Poppins", sans-serif;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
-    "left left left left left left right right right right right right"
-    "left left left left left left right right right right right right"
-    "left left left left left left right right right right right right"
-    "left left left left left left right right right right right right"
-    "left left left left left left right right right right right right"
-    "left left left left left left right right right right right right";
-    margin: 0;
-    /* width: 100vw; */
-    /* height: 100vw; */
-    
+    " firstSide secondSide "
+    " firstSide secondSide "
+    " firstSide secondSide "
+    " firstSide secondSide ";
+    max-height: 100vh;
+    /* gap: 1.5em 0;
+    padding: 1.5em; */
+
+
 }
 
 .container {
-    /* width: 50%; */
-    /* padding: 40px; */
-    /* margin: 0 auto; */
-    border: 1px solid blue;
-
-
+    max-height: 100%;
 
 }
 
-.leftDetail {
-    grid-area: left;
-    /* margin: 0 auto; */
-    /* width: 400px; */
-    border: 1px solid blue;
+.firstSide {
+    grid-area: firstSide;
+}
 
+.leftDetail {
+    width: 500px;
+    justify-self: center;
+    height: 100vh;
+}
+
+
+
+.secondSide {
+    grid-area: secondSide;
+    background-color: #00a6ff;
+    position: relative;
 
 }
 
 .logo-img {
     width:30%;
     padding: 20px;
-    box-shadow: 0 2px 2px rgb(208, 208, 208);
+    box-shadow: 0 2px 5px rgb(208, 208, 208, 45%);
     border-radius: 8px;
 }
 
-.secondSide {
-    background-color: hsl(201,100%,50%);
-    /* margin: 0; */
-}
+
 
 .inscriptionBox {
     background: white;
-    /* padding: 20px; */
     border-radius: 16px ;
-    /* align-self: center; */
-    /* width: 400px; */
     grid-area: right;
-
+    padding: 40px;
+    width: 450px;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
 
 .inscriptionBox h2 {
@@ -84,7 +91,6 @@ button {
 
 form {
     width: 100%;
-    border: 1px solid blue;
     font-family: "Poppins", sans-serif;
 }
 
