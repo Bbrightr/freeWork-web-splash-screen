@@ -13,14 +13,57 @@ body {
     " firstSide secondSide "
     " firstSide secondSide ";
     max-height: 100vh;
+    color: #4b5563;
     /* gap: 1.5em 0;
     padding: 1.5em; */
 
 
 }
 
+h2 {
+    margin: 0;
+}
+
 .container {
     max-height: 100%;
+
+}
+
+header h2 {
+    font-size: 30px;
+}
+
+header p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header p a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid #00a6ff;
+}
+
+.otherOptions {
+    display: flex;
+    gap: 15px;
+}
+
+.logOptions {
+    border: 1px solid blue;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.logOptions p {
+    border: 1px solid blue;
+    display: inline-block;
+
+}
+
+.logOptions img {
+    border: 1px solid blue;
+    display: inline-block;
 
 }
 
