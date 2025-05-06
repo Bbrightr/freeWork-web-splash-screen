@@ -46,25 +46,26 @@ header p a {
 
 .otherOptions {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logOptions {
-    border: 1px solid blue;
+    border: 2px solid blue;
     margin-top: 0;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
 }
 
 .logOptions p {
     border: 1px solid blue;
-    display: inline-block;
-
 }
 
 .logOptions img {
     border: 1px solid blue;
-    display: inline-block;
-
+    /* display: inline-block; */
+    width: 24px;
+    height: 24px;
 }
 
 .firstSide {
@@ -144,11 +145,14 @@ form label {
 
 input {
     display: block;
-    padding: 8px;
+    padding: 12px;
     width: 100%;
     margin-top: 8px;
     margin-bottom: 8px;
+    border-radius: 6px;
 }
+
+
 
 .anInput {
     margin-bottom: 16px;
